@@ -1,0 +1,23 @@
+/*******************************TAG SELECTORS********************************/
+
+body {
+    background-color: #eaf6f6;
+}
+
+hr {
+    border-style: inset none none;
+    border-color: black;
+    border-width: 3px;
+    width: 100%;
+}
+
+h1 {
+    color: #f05454
+}
+
+h3 {
+    color: #f05454
+}
+
+
+/*******************************CLASS SELECTORS********************************/
