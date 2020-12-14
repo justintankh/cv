@@ -42,6 +42,10 @@ a:hover {
     color: red;
 }
 
+span {
+    font-weight: bolder;
+}
+
 label {
     text-align: left;
     color: #fff3e2;
