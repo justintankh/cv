@@ -9,7 +9,7 @@ body {
 hr {
     border-style: inset none none;
     border-color: black;
-    border-width: 3px;
+    border-width: 0.1875rem;
     width: 20%;
 }
 
@@ -76,7 +76,7 @@ img.backdrop {
     position: absolute;
     margin: 0 auto;
     width: 15rem;
-    right: 8rem;
+    right: 5rem;
 }
 
 .Lhead {
@@ -96,7 +96,8 @@ img.backdrop {
 }
 
 .project,
-.skill {
+.skill,
+.resume {
     margin: 3rem auto 3rem auto;
 }
 
@@ -104,8 +105,7 @@ img.backdrop {
     float: none;
 }
 
-.contact,
-.resume {
-    margin: 3rem auto 3rem auto;
+.contact {
+    margin: 0rem auto 3rem auto;
     float: none;
 }
