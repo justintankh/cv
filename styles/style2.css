@@ -15,7 +15,7 @@ hr {
 
 h1 {
     color: #ff4646;
-    font-size: 600%;
+    font-size: 6rem;
     font-family: 'East Sea Dokdo', cursive;
     margin-top: 0;
 }
@@ -23,13 +23,13 @@ h1 {
 h3 {
     color: #dbf6e9;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 300%;
+    font-size: 3rem;
 }
 
 p {
     color: #fff3e2;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 120%;
+    font-size: 1.2rem;
     line-height: 1;
 }
 
@@ -89,23 +89,32 @@ img.backdrop {
 
 .projectimg1,
 .projectimg2,
-.projectimg3,
-.skillimg1,
-.skillimg2 {
+.projectimg3 {
     width: 20rem;
 }
 
 .project,
-.skill,
-.resume {
+.skill {
     margin: 3rem auto 3rem auto;
 }
 
 .skill1,
-.skill2 {
+.skill2,
+.resume {
     float: none;
-    width: 50%;
+    width: 30%;
     margin: 0 auto 0 auto;
+    float: left;
+}
+
+.skillimg1,
+.skillimg2,
+.skillimg3 {
+    width: 50%;
+}
+
+.skill1 {
+    margin-left: 5rem;
 }
 
 .contact {
