@@ -30,6 +30,7 @@ p {
     color: #fff3e2;
     font-family: 'JetBrains Mono', monospace;
     font-size: 120%;
+    line-height: 1;
 }
 
 a {
@@ -83,8 +84,7 @@ img.backdrop {
     position: absolute;
     margin: 0 auto;
     width: 15rem;
-    left: 8rem;
-    top: -5rem;
+    left: 7rem;
 }
 
 .projectimg1,
@@ -101,8 +101,11 @@ img.backdrop {
     margin: 3rem auto 3rem auto;
 }
 
-.skill1 {
+.skill1,
+.skill2 {
     float: none;
+    width: 50%;
+    margin: 0 auto 0 auto;
 }
 
 .contact {
