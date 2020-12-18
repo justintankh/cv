@@ -19,8 +19,8 @@
             <img class="Rhead" src="images/man.png" alt="justin profile picture">
             <img class="Lhead" src="https://media.giphy.com/media/j6ZhcAyUctYrj2ueBi/source.gif">
             <h1>Justin Tan</h1>
-            <br style="clear: right;" />
-            <p>🔍Exploring <em><u>Data Science</u> and <u>Frontend Development</u></em></p>
+            <!-- "clear" Needed to break out of float -->
+            <p style="clear: right">🔍Exploring <em><u>Data Science</u> and <u>Frontend Development</u></em></p>
             <p>🎓<em>Graduating in 2022 with <u>Bacholar of Engineering</u> </em><strong>(EEE)</strong></p>
         </div>
         <img class="backdrop" src="images/backdrop.png" alt="backdrop">
@@ -33,7 +33,7 @@
         <img class="projectimg1" src="images/crowdcount1.png">
         <img class="projectimg1" src="images/crowdcount2.png">
         <img class="projectimg1" src="images/crowdcount3.png">
-        <p><span style="color: red;">> </span><a href="https://justintankh.github.io/DIP056/newsite4/">Crowd Counting with Pre-trained Model.</a><span style="color: red;"><</span></p>
+        <p><span style="color: red;">> </span><a href="https://justintankh.github.io/DIP056/newsite4/">Crowd Counting using Pre-trained Model.</a><span style="color: red;"><</span></p>
     </div>
     <div class="project">
         <img class="projectimg2" src="images/datascience1.png">
@@ -64,12 +64,11 @@
         </div>
     </div>
 
-    <!-- Needed to break out of float -->
-    <br style="clear: left;" />
+    <!-- "clear" Needed to break out of float -->
+    <hr style="clear: left">
 
-    <hr>
-
-    <h3>📧 Contact me </h3>
+    <h3 class="contacthead">📧 Contact me </h3>
+    <h2>justintankh@gmail.com</h2>
     <div class="contact">
         <form action="mailto:justintankh@gmail.com" method="post" enctype="text/plain">
             <label>Your Name:</label>
@@ -78,7 +77,7 @@
             <input type="email" name="yourEmail" value=""><br>
             <label>Your Messages:</label><br>
             <textarea name="yourMessage" row="10" cols="30"></textarea><br>
-            <input type="submit" name="">
+            <input class="btn" type="submit" name="">
         </form>
     </div>
 
