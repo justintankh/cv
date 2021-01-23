@@ -1,0 +1,156 @@
+/*******************************TAG SELECTORS********************************/
+
+body {
+    background-color: #5c6e91;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+hr {
+    border-style: inset none none;
+    border-color: black;
+    border-width: 0.1875rem;
+    width: 20%;
+}
+
+h1 {
+    color: #ff4646;
+    font-size: 8rem;
+    font-family: 'East Sea Dokdo', cursive;
+    margin: 0 auto;
+    line-height: 1;
+}
+
+h2 {
+    color: aquamarine;
+    font-size: 2rem;
+    font-family: monospace;
+    margin: 0 auto 1rem auto;
+    line-height: 1;
+}
+
+h3 {
+    color: #dbf6e9;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3rem;
+    margin: 0 0 5rem 0;
+}
+
+p {
+    color: #fff3e2;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    /* no underline */
+}
+
+a:hover {
+    color: red;
+}
+
+span {
+    font-weight: bolder;
+}
+
+label {
+    text-align: left;
+    color: #fff3e2;
+    font-size: 130%;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+
+/*******************************CLASS SELECTORS********************************/
+
+img.backdrop {
+    position: relative;
+    margin: 3rem auto;
+    width: 62rem;
+    right: 3rem;
+}
+
+.heading {
+    position: relative;
+    width: 100%;
+    align-items: center;
+}
+
+.profile {
+    position: relative;
+    margin: 5rem auto 0 auto;
+    width: 90%;
+}
+
+.Rhead {
+    float: right;
+    margin: 0 auto;
+    width: 15rem;
+}
+
+.Lhead {
+    float: left;
+    margin: 0 auto;
+    width: 15rem;
+}
+
+.projectimg1,
+.projectimg2,
+.projectimg3 {
+    width: 20rem;
+}
+
+.project,
+.skill {
+    margin: 3rem auto 3rem auto;
+}
+
+.skill1,
+.skill2,
+.resume {
+    float: none;
+    width: 30%;
+    margin: 0 auto 0 auto;
+    float: left;
+}
+
+.skillimg1,
+.skillimg2,
+.skillimg3 {
+    width: 50%;
+}
+
+.skill1 {
+    margin-left: 5rem;
+}
+
+.contact {
+    margin: 0rem auto 3rem auto;
+    float: none;
+}
+
+.contacthead {
+    margin: 0rem auto 1rem auto;
+}
+
+.btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Georgia;
+    color: #000000;
+    font-size: 1rem;
+    background: #ffffff;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: solid #000000 0.12rem;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: aquamarine;
+    text-decoration: none;
+}
