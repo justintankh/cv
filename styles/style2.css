@@ -22,9 +22,9 @@ h1 {
 }
 
 h2 {
-    color: aquamarine;
+    color: #dbf6e9;
     font-size: 2rem;
-    font-family: monospace;
+    font-family: 'East Sea Dokdo', cursive;
     margin: 0 auto 1rem auto;
     line-height: 1;
 }
